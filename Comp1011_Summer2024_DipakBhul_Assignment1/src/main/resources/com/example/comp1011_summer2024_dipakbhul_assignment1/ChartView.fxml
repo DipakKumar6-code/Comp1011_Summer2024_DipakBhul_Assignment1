@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.chart.BarChart?>
+<?import javafx.scene.chart.CategoryAxis?>
+<?import javafx.scene.chart.NumberAxis?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.RadioButton?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane fx:id="chartImg" prefHeight="581.0" prefWidth="683.0" stylesheets="@app.css" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.comp1011_summer2024_dipakbhul_assignment1.controllers.ChartViewController">
+    <children>
+<!--         ImageView for Background Image-->
+        <ImageView fx:id="backgroundImg" fitHeight="581.0" fitWidth="683.0" pickOnBounds="true" preserveRatio="true">
+            <image>
+                <Image url="@images/airportPearson.jpg" />
+            </image>
+        </ImageView>
+
+        <!-- BarChart -->
+        <BarChart fx:id="barChart" prefHeight="474.0" prefWidth="642.0" layoutX="20.0" layoutY="20.0">
+            <xAxis>
+                <CategoryAxis fx:id="xAxis" />
+            </xAxis>
+            <yAxis>
+                <NumberAxis fx:id="yAxis" label="Number of Flights" />
+            </yAxis>
+        </BarChart>
+
+        <!-- View Table Button -->
+        <Button fx:id="viewBtn" alignment="CENTER" layoutX="546.0" layoutY="523.0" onAction="#launchTableView" prefHeight="39.0" prefWidth="96.0" text="View Table">
+            <font>
+                <Font name="Tahoma" size="14.0" />
+            </font>
+        </Button>
+
+        <!-- Show No. of Flights by Airlines Button -->
+        <Button fx:id="flightBtn" layoutX="222.0" layoutY="481.0" mnemonicParsing="false" prefHeight="39.0" prefWidth="240.0" text="Show No. of Flights by Airlines">
+            <font>
+                <Font name="Lucida Bright Demibold" size="13.0" />
+            </font>
+        </Button>
+
+        <!-- Radio Buttons -->
+        <RadioButton fx:id="airlineRd" layoutX="221.0" layoutY="534.0" mnemonicParsing="false" text="Airlines" />
+        <RadioButton fx:id="onTimeRd" layoutX="308.0" layoutY="534.0" mnemonicParsing="false" text="On Time" />
+        <RadioButton fx:id="delayRd" layoutX="397.0" layoutY="534.0" mnemonicParsing="false" text="Delayed" />
+    </children>
+</AnchorPane>

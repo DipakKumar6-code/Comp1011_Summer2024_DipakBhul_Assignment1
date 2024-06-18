@@ -1,0 +1,96 @@
+/*
+    CSS Styles for ChartViewController
+    **********************************
+
+    Styling for chart legend items
+ */
+.chart-legend-item {
+    -fx-background-color: #f3f3f3;
+    -fx-background-color: transparent;
+    -fx-border-radius: 5;
+    -fx-padding: 5;
+}
+
+.table-view {
+    -fx-background-color: #eaeaea;
+}
+
+#flightBtn{
+    -fx-border-color: transparent;
+    -fx-border-radius: 6px;
+    -fx-background-color: #4ee3e3;
+    -fx-text-fill: #fff;
+}
+
+#viewBtn{
+    -fx-border-color: transparent;
+    -fx-border-radius: 5px;
+    -fx-background-color: #39e839;
+    -fx-text-fill: #fff;
+}
+
+#airlineRd, #onTimeRd, #delayRd{
+    -fx-text-fill: orange;
+    -fx-font-family: "Segoe UI Semibold";
+    -fx-font-size: 12px;
+}
+
+#loadAllBtn{
+   -fx-border-color: transparent;
+    -fx-border-radius: 6px;
+    -fx-background-color: #e3648b;
+    -fx-text-fill: #fff;
+}
+
+#chartBtn{
+    -fx-border-color: transparent;
+    -fx-border-radius: 5px;
+    -fx-background-color: #64e8d1;
+    -fx-text-fill: #fff;
+}
+
+#chartImg {
+    -fx-background-color: transparent; /* Make the background of the AnchorPane transparent */
+}
+
+/*Styling for barchart*/
+#barChart {
+    -fx-font-family: "Times New Roman";
+    -fx-font-weight: bold;
+    -fx-background-color: transparent;
+}
+
+/*
+    Styling for ImageView with ID backgroundImg
+ */
+
+#backgroundImg {
+    -fx-background-color: transparent;
+    -fx-opacity: 0.47;
+}
+
+/*
+    Chart specific styling
+ */
+.chart-plot-background {
+    -fx-background-color: transparent;
+}
+
+.chart-horizontal-grid-lines {
+    -fx-stroke: transparent;
+}
+
+.chart-vertical-grid-lines {
+    -fx-stroke: transparent;
+}
+
+
+.chart-number-axis .axis-tick-label {
+    -fx-font-size: 17px;  /* Change font size */
+    -fx-font-weight: bold;  /* Make text bold */
+    -fx-text-fill: #FF0000;  /* Change text color */
+}
+
+
+
+
