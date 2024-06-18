@@ -50,7 +50,7 @@ public class ChartViewController {
     }
 
     /**
-     * Initializing the radio buttons and their toggle groups.
+     * Initializing the radio buttons and their toggle group.
      */
     private void initializeRadioBtn() {
         toggleGroup = new ToggleGroup();

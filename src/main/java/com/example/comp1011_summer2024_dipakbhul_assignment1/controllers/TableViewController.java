@@ -13,7 +13,7 @@ import javafx.scene.control.cell.PropertyValueFactory;
 import java.util.List;
 
 /**
- * Controller class for managing the TableView of flight data.
+ * Controller class for managing the TableView of flight data app.
  */
 public class TableViewController {
 

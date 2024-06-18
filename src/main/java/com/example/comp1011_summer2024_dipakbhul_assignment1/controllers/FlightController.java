@@ -9,7 +9,7 @@ import java.sql.ResultSet;
 import java.sql.Statement;
 
 /**
- * FlightController class retrieves flight data from the FlightDetails table in the PearsonAirport database.
+ * FlightController class retrieving flight data from the FlightDetails table in the PearsonAirport database.
  */
 public class FlightController {
 

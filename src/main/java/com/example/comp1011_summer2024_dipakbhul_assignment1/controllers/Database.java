@@ -5,7 +5,7 @@ import java.sql.DriverManager;
 import java.sql.SQLException;
 
 /**
- * Database class to handle the connection of PearsonAirport database on AWS RDS.
+ * Database class handles the connection to PearsonAirport database on AWS RDS.
  */
 
 public class Database {
